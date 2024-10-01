@@ -94,7 +94,7 @@ export default function CurrencyConverter() {
             ) : (
               <div className="grid gap-4 sm:grid-cols-3 m-4">
                 <div>
-                  <Label className="text-xl font-semibold">Amount</Label>
+                  <Label>Amount</Label>
                   <Input
                     placeholder="Enter Your Amount"
                     type="number"
